@@ -1,0 +1,19 @@
+# Model weights (too large for a normal git repo; download from the Hub instead)
+*.pt
+*.pth
+
+# Enrolled face embeddings -- this is your personal biometric data, don't commit it
+known_faces.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS junk
+.DS_Store
