@@ -1,7 +1,7 @@
 # Face Detection + Recognition Pipeline
 
 Two-stage pipeline:
-1. **Detection** — your fine-tuned `uralman/yolo26l-widerface` YOLO model finds face bounding boxes.
+1. **Detection** — fine-tuned `uralman/yolo26l-widerface` YOLO model finds face bounding boxes.
 2. **Recognition** — `facenet-pytorch` (InceptionResnetV1, VGGFace2 weights) turns each detected face into a 512-d embedding and matches it against enrolled identities by distance.
 
 ## Setup
